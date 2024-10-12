@@ -1,0 +1,24 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.news-card{
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.news-card:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.news-card img{
+  width: 220px;
+  height: 200px;
+  object-fit: cover;
+}
+.loader-div{
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
